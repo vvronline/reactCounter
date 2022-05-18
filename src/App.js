@@ -34,6 +34,7 @@ function App() {
  
   return (
     <div className="App">
+      <h2> Stop Watch</h2>
       <h1>{counter}s</h1>
       <button  onClick={toggle}>{isActive?'pause':'start' }</button>
       <button  onClick={reset}>reset</button>
